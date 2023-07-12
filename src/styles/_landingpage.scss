@@ -1,0 +1,261 @@
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 300px;
+    border-radius:20px;
+    box-shadow: 0 0 5px 2px rgb(175, 2, 255);
+    transform: scale(1);
+    transition: all 0.3s;
+    margin: 20px;
+
+    &:hover {
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+    img {
+        width: 300px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    h1{
+        color: #000000;
+
+    }
+}
+
+.landingPage {
+    padding-bottom: 300px;
+}
+
+.grid {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+    padding-top:80px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding-top:80px;
+    padding-bottom:80px;
+    
+    img {
+        width:250px;
+        border-radius: 50%;
+        margin-right: 30px;
+    }
+}
+
+
+.title {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    color: #000000;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    @media (max-width: 668px) {
+        display: none;
+     }
+
+    p {
+        font-size: 22px;
+        margin-top: 20px;
+    }
+
+    button {
+        border: none;
+        padding: 10px 70px;
+        margin: 20px 0;
+        border-radius: 20px;
+        font-size: 18px;
+        background:none;
+        border: 1px solid rgb(0, 0, 0);
+        color: rgb(0, 0, 0);
+        transition: all 0.3s;
+        &:hover {
+            background:rgb(123, 0, 255);
+            border: 1px solid white;
+            cursor: pointer;
+            color: white;
+        }
+    }
+}
+
+.link {
+    transition: all 0.3s;
+    &:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+        z-index: 100000000;
+    }
+}
+
+.search-box {
+    width: 100%;
+    padding: 15px;
+    border-radius: 30px;
+    background:none;
+    margin: auto;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border: none;
+    box-shadow: 0 0 1px 1px rgb(0, 0, 0);
+    margin-bottom: 70px;
+}
+
+.search_container {
+    position: relative;
+    display: flex;
+    width: 40%;
+    margin: auto;
+
+    img {
+        width: 30px;
+        // filter: invert(100%);
+        position: absolute;
+        right:15px;
+        top: 10px;
+
+    }
+    @media (max-width: 668px) {
+        width: 80%;
+    }
+}
+
+
+.modal {
+    background: #060c217c;
+    margin: auto;
+    backdrop-filter: blur(40px);
+    border-radius: 2%;
+    outline: none;
+    box-shadow: 0 0 5px 5px rgb(241, 8, 58);
+    width: 80%;
+    height: 900px;
+    z-index: 10;
+
+}
+
+// }
+
+.ReactModalPortal .ReactModal__Overlay {
+    align-items: center;
+    justify-content:center;
+    display:flex;
+}
+
+.modal_container {
+    position: relative;
+}
+
+.ReactModalPortal .ReactModal__Overlay--after-open {
+    opacity: 1;
+}
+
+
+.ReactModalPortal .ReactModal__Overlay--before-close {
+    opacity: 0;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close {
+    background: none;
+    border: none;
+    margin: 10px;
+
+    img {
+        width: 30px;
+        // filter: invert(100%);
+        transition: all 0.3s;
+        &:hover {
+            cursor: pointer;
+            transform:scale(1.2); ;
+        }
+       
+    }
+}
+
+.modal-content {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+
+    @media (max-width: 668px) {
+        flex-direction: column;
+
+        img {
+            width: 100px;
+        }
+    }
+
+    .modal_img {
+        margin: 80px;
+        img {
+            width: 400px;
+        }
+    }
+
+
+    .modal_info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        h1 {
+            color: #000000;
+            margin: 50px;
+            font-size: 42px;
+        }
+
+        h3 {
+            margin: 40px;
+            font-size: 22px;
+            color: #000000;
+        }
+
+
+        .contact_icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 80px;
+                margin: 20px;
+            }
+
+            li {
+                font-size: 24px;
+                color: #000000;
+                margin: 20px;
+            }
+        }
+    }
+}
+
+
+.location {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 50px;
+    img {
+        width: 80px;
+        filter: invert(100%);
+    }
+}
