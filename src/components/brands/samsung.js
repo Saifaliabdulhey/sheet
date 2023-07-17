@@ -2,7 +2,7 @@ export  const msi = {
     stateData:[
         {
             id:1,
-            name:'AMSUNG GALAXYBOOK FLEX 13.3 TOUCH QLED',
+            name:'SAMSUNG GALAXYBOOK FLEX 13.3 TOUCH QLED',
             cpu: 'CORE i5 1135G7',
             ram: '8GB',
             hard: '256GB SSD',
