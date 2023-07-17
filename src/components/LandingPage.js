@@ -132,7 +132,7 @@ function LandingPage() {
       </Modal>
 
       <div className="header">
-        <Link to="/narutosheet"><img data-aos="fade-right" data-aos-duration="2300" src={logo} /></Link>
+        <Link to="/sheet"><img data-aos="fade-right" data-aos-duration="2300" src={logo} /></Link>
         <div className='title'>
           <h1 data-aos="fade-up" data-aos-duration="1000">NARUTO CENTER</h1>
           <p data-aos="fade-up" data-aos-duration="1500">ALL WHAT WE HAVE IS HERE!</p>
