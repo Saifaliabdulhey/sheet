@@ -15,7 +15,7 @@ function California() {
         <h1>NARUTO CENTER</h1>
       </div>
       <div className="img_container">
-        <Link className="link" to='/landing'> <img className="back" src={back} /></Link>
+        <Link className="link" to='/naruto'> <img className="back" src={back} /></Link>
       </div>
       <hr />
       <h1 className='brand'>Macbook New</h1>
