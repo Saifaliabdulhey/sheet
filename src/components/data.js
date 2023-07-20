@@ -1,7 +1,7 @@
 import california from '../images/OIP.jpeg'
 import taxas from '../images/taxas.jpg';
-import connecticut from '../images/connecticut.png';
-import geogia from '../images/georgia.png';
+import connecticut from '../images/macbook.jpg';
+import geogia from '../images/aio.jpg';
 import hampshire from '../images/hampshire.png';
 import maryland from '../images/maryland.png';
 import massachusetts from '../images/massachusetts.png';
@@ -71,18 +71,18 @@ export  const data = {
             name: 'Used Laptops'
         },
         
-        // {
-        //     id:3,
-        //     link:'/landing/connecticut',
-        //     img:connecticut,
-        //     name: 'Used Macbook'
-        // },
-        // {
-        //     id:4,
-        //     link:'/landing/geogia',
-        //     img:geogia,
-        //     name: 'New Macbook'
-        // },
+        {
+            id:3,
+            link:'/landing/connecticut',
+            img:connecticut,
+            name: 'Used Macbook'
+        },
+        {
+            id:4,
+            link:'/landing/geogia',
+            img:geogia,
+            name: 'ALL In One'
+        },
         // {
         //     id:5,
         //     link:'/landing/indiana',

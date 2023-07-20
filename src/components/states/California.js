@@ -51,9 +51,10 @@ function California() {
 
           {
             dell.stateData.map((item, index) => {
-
+              
               return <div class="table-row">
                 <div class="table-cell first-cell-Auction ">
+                <spam className="new">new</spam>
                   <p>{item.name}</p>
                 </div>
                 <div class="table-cell first-cell">
@@ -84,6 +85,7 @@ function California() {
 
               return <div class="table-row">
                 <div class="table-cell first-cell-Auction ">
+                <spam className="new">new</spam>
                   <p>{item.name}</p>
                 </div>
                 <div class="table-cell first-cell">
@@ -114,6 +116,7 @@ function California() {
 
               return <div class="table-row">
                 <div class="table-cell first-cell-Auction ">
+                <spam className="new">new</spam>
                   <p>{item.name}</p>
                 </div>
                 <div class="table-cell first-cell">
@@ -144,6 +147,7 @@ function California() {
 
               return <div class="table-row">
                 <div class="table-cell first-cell-Auction ">
+                <spam className="new">new</spam>
                   <p>{item.name}</p>
                 </div>
                 <div class="table-cell first-cell">
@@ -174,6 +178,7 @@ function California() {
 
               return <div class="table-row">
                 <div class="table-cell first-cell-Auction ">
+                <spam className="new">new</spam>
                   <p>{item.name}</p>
                 </div>
                 <div class="table-cell first-cell">
@@ -204,6 +209,7 @@ function California() {
 
               return <div class="table-row">
                 <div class="table-cell first-cell-Auction ">
+                <spam className="new">new</spam>
                   <p>{item.name}</p>
                 </div>
                 <div class="table-cell first-cell">
@@ -234,6 +240,7 @@ function California() {
 
               return <div class="table-row">
                 <div class="table-cell first-cell-Auction ">
+                <spam className="new">new</spam>
                   <p>{item.name}</p>
                 </div>
                 <div class="table-cell first-cell">
@@ -264,6 +271,7 @@ function California() {
 
               return <div class="table-row">
                 <div class="table-cell first-cell-Auction ">
+                <spam className="new">new</spam>
                   <p>{item.name}</p>
                 </div>
                 <div class="table-cell first-cell">
@@ -294,6 +302,7 @@ function California() {
 
               return <div class="table-row">
                 <div class="table-cell first-cell-Auction ">
+                <spam className="new">new</spam>
                   <p>{item.name}</p>
                 </div>
                 <div class="table-cell first-cell">

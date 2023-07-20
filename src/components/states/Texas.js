@@ -55,6 +55,7 @@ function California() {
 
               return <div class="table-row">
                 <div class="table-cell first-cell-Auction ">
+                <spam className="used">used</spam>
                   <p>{item.name}</p>
                 </div>
                 <div class="table-cell first-cell">
@@ -85,6 +86,7 @@ function California() {
 
               return <div class="table-row">
                 <div class="table-cell first-cell-Auction ">
+                <spam className="used">used</spam>
                   <p>{item.name}</p>
                 </div>
                 <div class="table-cell first-cell">
@@ -115,6 +117,7 @@ function California() {
 
               return <div class="table-row">
                 <div class="table-cell first-cell-Auction ">
+                <spam className="used">used</spam>
                   <p>{item.name}</p>
                 </div>
                 <div class="table-cell first-cell">
@@ -145,6 +148,7 @@ function California() {
 
               return <div class="table-row">
                 <div class="table-cell first-cell-Auction ">
+                <spam className="used">used</spam>
                   <p>{item.name}</p>
                 </div>
                 <div class="table-cell first-cell">
@@ -175,6 +179,7 @@ function California() {
 
               return <div class="table-row">
                 <div class="table-cell first-cell-Auction ">
+                <spam className="used">used</spam>
                   <p>{item.name}</p>
                 </div>
                 <div class="table-cell first-cell">
@@ -205,6 +210,7 @@ function California() {
 
               return <div class="table-row">
                 <div class="table-cell first-cell-Auction ">
+                <spam className="used">used</spam>
                   <p>{item.name}</p>
                 </div>
                 <div class="table-cell first-cell">
@@ -235,6 +241,7 @@ function California() {
 
               return <div class="table-row">
                 <div class="table-cell first-cell-Auction ">
+                <spam className="used">used</spam>
                   <p>{item.name}</p>
                 </div>
                 <div class="table-cell first-cell">
@@ -265,6 +272,7 @@ function California() {
 
               return <div class="table-row">
                 <div class="table-cell first-cell-Auction ">
+                <spam className="used">used</spam>
                   <p>{item.name}</p>
                 </div>
                 <div class="table-cell first-cell">
@@ -295,6 +303,7 @@ function California() {
 
               return <div class="table-row">
                 <div class="table-cell first-cell-Auction ">
+                <spam className="used">used</spam>
                   <p>{item.name}</p>
                 </div>
                 <div class="table-cell first-cell">
