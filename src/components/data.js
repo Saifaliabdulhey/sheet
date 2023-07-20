@@ -60,26 +60,26 @@ export  const data = {
     stateData:[
         {
             id:1,
-            link:'/landing/california',
+            link:'/naruto/california',
             img:california,
             name: 'New Laptops'
         },
         {
             id:2,
-            link:'/landing/texas',
+            link:'/naruto/texas',
             img:taxas,
             name: 'Used Laptops'
         },
         
         {
             id:3,
-            link:'/landing/connecticut',
+            link:'/naruto/connecticut',
             img:connecticut,
             name: 'Used Macbook'
         },
         {
             id:4,
-            link:'/landing/geogia',
+            link:'/naruto/geogia',
             img:geogia,
             name: 'ALL In One'
         },

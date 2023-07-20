@@ -9,7 +9,7 @@ function Home() {
       <img src={logo} />
       <h1>WELCOME TO NARUTO CENTER</h1>
       <p>Naruto Center where the enovation at your fingertips!</p>
-      <Link to='/landing'><button to='/landing'>View The List</button></Link>
+      <Link to='/naruto'><button to='/naruto'>View The List</button></Link>
     </div>
   )
 }
